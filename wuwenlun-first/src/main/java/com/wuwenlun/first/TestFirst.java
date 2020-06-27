@@ -10,6 +10,6 @@ public class TestFirst {
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		TestService service = context.getBean(TestService.class);
-		System.out.println(service);
+		System.out.println(service+"");
 	}
 }
